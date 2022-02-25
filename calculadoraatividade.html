@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calc</title>
+  </head>
+  <body>
+    <div>
+      <br>
+      <form>
+        <fieldset id="faixa">
+          <legend><b>Calculadora</b></legend>
+          <label for="PriFaixa">Faixa 1:</label>
+          <select name="pri" id="PriFaixa">
+            <option value="0">Preta</option>
+            <option value="1">Marrom</option>
+            <option value="2">Vermelha</option>
+            <option value="3">Laranja</option>
+            <option value="4">Amarela</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+            <option value="7">Violeta</option>
+            <option value="8">Cinza</option>
+            <option value="9">Branca</option>
+          </select>
+          <label for="SegFaixa">Faixa 2:</label>
+          <select name="seg" id="SegFaixa">
+            <option value="0">Preta</option>
+            <option value="1">Marrom</option>
+            <option value="2">Vermelha</option>
+            <option value="3">Laranja</option>
+            <option value="4">Amarela</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+            <option value="7">Violeta</option>
+            <option value="8">Cinza</option>
+            <option value="9">Branca</option>
+          </select>
+          <label for="TerFaixa">Faixa 3:</label>
+          <select name="ter" id="TerFaixa">
+            <option value="0">Preta</option>
+            <option value="1">Marrom</option>
+            <option value="2">Vermelha</option>
+            <option value="3">Laranja</option>
+            <option value="4">Amarela</option>
+            <option value="5">Verde</option>
+            <option value="6">Azul</option>
+            <option value="7">Violeta</option>
+            <option value="8">Cinza</option>
+            <option value="9">Branca</option>
+          </select>
+          <label for="QuaFaixa">Mult:</label>
+          <select name="qua" id="QuaFaixa">
+            <option value="1">Preta</option>
+            <option value="10">Marrom</option>
+            <option value="100">Vermelha</option>
+            <option value="1000">Laranja</option>
+            <option value="10000">Amarela</option>
+            <option value="100000">Verde</option>
+            <option value="1000000">Azul</option>
+            <option value="10000000">Violeta</option>
+            <option value="0.1">Dourada</option>
+            <option value="0.01">Prateada</option>
+          </select>
+          <label for="QuiFaixa">Tolerância:</label>
+          <select name="qui" id="QuiFaixa">
+            <option value="0.01">Marrom</option>
+            <option value="0.02">Vermelha</option>
+            <option value="0.005">Verde</option>
+            <option value="0.0025">Azul</option>
+            <option value="0.001">Violeta</option>
+            <option value="0.0005">Cinza</option>
+            <option value="0.05">Dourada</option>
+            <option value="0.1">Prateada</option>
+          </select>
+        </fieldset>
+        <fieldset class="final">
+          <legend><b>VALOR</b></legend>
+          <div id="result"></div>
+        </fieldset>
+      </form>
+      <br>
+      <p><button type="button" onclick="pegarDados()"><b>Resultado</b></button></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
